@@ -8,10 +8,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.actionbar.MainActivity">
+    tools:context="com.datepickerdialog.DatePickerDialog">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:id="@+id/showtime"
+        android:textColor="#ff000000"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setdate"
+        android:text="@string/setdate"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/showtime"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

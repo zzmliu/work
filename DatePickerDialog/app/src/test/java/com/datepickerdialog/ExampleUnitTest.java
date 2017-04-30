@@ -1,4 +1,4 @@
-package com.actionbar;
+package com.datepickerdialog;
 
 import org.junit.Test;
 
